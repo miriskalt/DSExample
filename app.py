@@ -9,7 +9,7 @@ def main() -> None:
     server = app.server
     app.title = "Medal dashboard"
     app.layout = create_layout(app)
-    app.run()
+    app.run_server()
 
 
 if __name__ == "__main__":
