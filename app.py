@@ -1,6 +1,8 @@
 
-from dash import Dash, dcc, html, Input, Output, callback
+from dash import Dash, doc, dcc, html, Input, Output, callback
 import os
+import pandas as pd
+import plotly.express as px
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
