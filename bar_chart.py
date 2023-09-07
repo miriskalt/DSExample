@@ -2,7 +2,7 @@ import plotly.express as px
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 
-from . import ids
+import ids
 
 MEDAL_DATA = px.data.medals_long()
 
