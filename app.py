@@ -9,12 +9,13 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
-    html.H1('Hello World'),
-    dcc.Dropdown(['LA', 'NYC', 'MTL'],
-        'LA',
+    html.H1('This is an example'),
+    dcc.Dropdown(['first', 'last', 'all'],
+        'choice',
         id='dropdown'
     ),
     html.Div(id='display-value')
+    html.H4('This city has ')
 ])
 
 @callback(Output('display-value', 'children'), Input('dropdown', 'value'))
