@@ -16,8 +16,7 @@ app.layout = html.Div([
         'choice',
         id='dropdown'
     ),
-    html.Div(id='display-value'),
-    html.H4('This city has ')
+    html.Div(id='display-value')
 ])
 
 @callback(Output('display-value', 'children'), Input('dropdown', 'value'))
