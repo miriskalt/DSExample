@@ -1,14 +1,25 @@
-from dash import Dash
-from dash_bootstrap_components.themes import BOOTSTRAP
+from dash import Dash, dcc, html, Input, Output, callback
+import os
 
-from layout import create_layout
 
-app = Dash(external_stylesheets=[BOOTSTRAP])
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+app = Dash(__name__, external_stylesheets=external_stylesheets)
+
 server = app.server
-app.title = "Medal dashboard"
-app.layout = create_layout(app)
-    
 
-if __name__ == "__main__":
-    app.run_server(debug=False)
+app.layout = html.Div([
+    html.H1('Hello World'),
+    dcc.Dropdown(['LA', 'NYC', 'MTL'],
+        'LA',
+        id='dropdown'
+    ),
+    html.Div(id='display-value')
+])
 
+@callback(Output('display-value', 'children'), Input('dropdown', 'value'))
+def display_value(value):
+    return f'You have selected {value}'
+
+if __name__ == '__main__':
+    app.run(debug=True)
