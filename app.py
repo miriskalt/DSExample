@@ -9,11 +9,12 @@ import plotly.express as px
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 ### Import data
 
-df = pd.read_csv('../Teilnehmerliste.csv')
-df = df[[' Matrikel_nr', ' Vorname', ' Hauptfach', ' Fachsemester']]
+df = pd.read_csv('data.csv')
+df = df[[' Matrikel_nr', ' Hauptfach', ' Fachsemester']]
 
 
 ### App layout
