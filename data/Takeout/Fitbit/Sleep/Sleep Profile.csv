@@ -1,0 +1,4 @@
+creation_date,sleep_type,deep_sleep,rem_sleep,sleep_duration,sleep_start_time,schedule_variability,restorative_sleep,time_before_sound_sleep,sleep_stability,nights_with_long_awakenings,days_with_naps
+2023-12-01,Not enough data
+2024-01-01,Parrot,70.46,18.53,7.24,23.90,60.97,74.75,19.63,4.67,7.14,3.45
+2024-02-01,Tortoise,67.87,17.50,8.48,23.88,98.38,77.86,28.32,5.12,12.90,9.68

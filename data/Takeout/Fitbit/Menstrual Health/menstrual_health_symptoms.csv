@@ -1,0 +1,8 @@
+timestamp,fluids,flow,conditions,sex,ovulation_test,cycle_altering_event,mood
+2023-12-20,null,null,cough & sick,null,null,null,null
+2023-12-19,null,null,sick,null,null,null,null
+2023-12-18,null,null,fever & sick,null,null,null,null
+2023-12-08,null,heavy,null,null,null,null,fatigued & anxious & stressed & sad
+2023-12-07,null,medium,cramps & back_pain,null,null,null,stressed
+2023-12-06,null,light,bloated & back_pain,null,null,null,anxious
+2023-11-25,null,null,null,null,null,morning_after_pill,null

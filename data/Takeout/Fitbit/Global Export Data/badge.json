@@ -1,0 +1,63 @@
+[{
+  "encodedId" : "228TMK",
+  "badgeType" : "DAILY_STEPS",
+  "value" : 15000,
+  "timesAchieved" : 2,
+  "dateTime" : "2023-12-30",
+  "name" : "Stadtschuh (15.000 Schritte an einem Tag)",
+  "shortName" : "Stadtschuh",
+  "earnedMessage" : "Glückwunsch zu deinem ersten Stadtschuh-Abzeichen!",
+  "description" : "15.000 Schritte an einem Tag",
+  "category" : "Tägliche Schritte",
+  "shareText" : "Ich bin 15.000Schritte gegangen und habe mir das Stadtschuh-Abzeichen verdient. #Fitbit"
+},{
+  "encodedId" : "228TQB",
+  "badgeType" : "DAILY_STEPS",
+  "value" : 10000,
+  "timesAchieved" : 6,
+  "dateTime" : "2024-01-25",
+  "name" : "Turnschuh (10.000 Schritte an einem Tag)",
+  "shortName" : "Turnschuh",
+  "earnedMessage" : "Glückwunsch zu deinem ersten Turnschuh-Abzeichen!",
+  "description" : "10.000 Schritte an einem Tag",
+  "category" : "Tägliche Schritte",
+  "shareText" : "Ich bin 10.000Schritte gegangen und habe mir das Turnschuh-Abzeichen verdient. #Fitbit"
+},{
+  "encodedId" : "228TQ4",
+  "badgeType" : "DAILY_STEPS",
+  "value" : 5000,
+  "timesAchieved" : 33,
+  "dateTime" : "2024-02-18",
+  "name" : "Bootschuh (5.000 Schritte an einem Tag)",
+  "shortName" : "Bootschuh",
+  "earnedMessage" : "Glückwunsch zu deinem ersten Bootschuh-Abzeichen!",
+  "description" : "5.000 Schritte an einem Tag",
+  "category" : "Tägliche Schritte",
+  "shareText" : "Ich bin 5.000Schritte gegangen und habe mir das Bootschuh-Abzeichen verdient. #Fitbit"
+},{
+  "encodedId" : "22B8LP",
+  "badgeType" : "LIFETIME_DISTANCE",
+  "value" : 112,
+  "unit" : "KILOMETERS",
+  "timesAchieved" : 1,
+  "dateTime" : "2023-12-27",
+  "name" : "Pinguinwanderung (112 km insgesamt)",
+  "shortName" : "Pinguinwanderung",
+  "earnedMessage" : "Super! Du hast dir das Pinguinwanderung-Abzeichen verdient.",
+  "description" : "112 km insgesamt",
+  "category" : "Gesamtstrecke",
+  "shareText" : "Ich habe mit meinem #Fitbit 112 Kilometer zurückgelegt und mir dafür das Pinguinwanderung-Abzeichen verdient."
+},{
+  "encodedId" : "22B8LN",
+  "badgeType" : "LIFETIME_DISTANCE",
+  "value" : 42,
+  "unit" : "KILOMETERS",
+  "timesAchieved" : 1,
+  "dateTime" : "2023-12-09",
+  "name" : "Marathon (42 km insgesamt)",
+  "shortName" : "Marathon",
+  "earnedMessage" : "Super! Du hast dir das Marathon-Abzeichen verdient.",
+  "description" : "42 km insgesamt",
+  "category" : "Gesamtstrecke",
+  "shareText" : "Ich habe mit meinem #Fitbit 42 Kilometer zurückgelegt und mir dafür das Marathon-Abzeichen verdient."
+}]

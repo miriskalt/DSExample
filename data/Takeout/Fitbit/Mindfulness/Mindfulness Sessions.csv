@@ -1,0 +1,6 @@
+session_id,activity_name,average_heart_rate,start_heart_rate,end_heart_rate,duration,start_date_time,end_date_time,session_type,stress_metrics,pause_times
+640d9620-b776-11ee-8080-808080808080,Schneller scan,null,79,66,180000,2024-01-20T10:29:20+01:00,2024-01-20T10:32:23+01:00,quick-scan,{meanScore=-1  derivScore=-1  peakScore=-1  hrvBaseline=52.97478103637695  hrvSessionRsmmd=57  Score6=-1},null
+9c611130-95f4-11ee-8080-808080808080,Schneller Scan,null,68,64,120000,2023-12-08T19:07:12+01:00,2023-12-08T19:09:15+01:00,quick-scan,{meanScore=-1  derivScore=-1  peakScore=-1  hrvBaseline=57.97293472290039  hrvSessionRsmmd=50  Score6=-1},null
+c99432c0-943e-11ee-8080-808080808080,Schneller Scan,null,79,68,120000,2023-12-06T14:53:08+01:00,2023-12-06T14:55:09+01:00,quick-scan,{meanScore=-1  derivScore=-1  peakScore=-1  hrvBaseline=56.25562286376953  hrvSessionRsmmd=41  Score6=-1},null
+f4650650-9204-11ee-8080-808080808080,Schneller Scan,null,76,77,120000,2023-12-03T18:54:07+01:00,2023-12-03T18:56:09+01:00,quick-scan,{meanScore=-1  derivScore=-1  peakScore=-1  hrvBaseline=56.381874084472656  hrvSessionRsmmd=31  Score6=-1},null
+5310d840-908f-11ee-8080-808080808080,Schneller Scan,null,69,64,120000,2023-12-01T22:19:34+01:00,2023-12-01T22:21:37+01:00,quick-scan,{meanScore=-1  derivScore=-1  peakScore=-1  hrvBaseline=54  hrvSessionRsmmd=-1  Score6=-1},null
