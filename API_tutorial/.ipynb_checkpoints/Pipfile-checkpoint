@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dash = "==2.13.0"
+plotly = "==5.16.1"
+"plotly.express" = "*"
+gunicorn = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
