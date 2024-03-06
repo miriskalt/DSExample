@@ -1,3 +1,6 @@
+'''
+Sample Dash Dashboard for DS Project
+'''
 import pandas as pd
 import dash
 from dash import dcc
@@ -56,14 +59,14 @@ app.layout = html.Div([
      [Input(component_id='feature_selection', component_property='value')]
 )
 def update_graph(option_selection):
-
-    container = "The plot shows: {}".format(option_selection)
+    '''Update the overall linegraph'''
+    container = f"The plot shows: {option_selection}"
     # create graph
     fig = px.line(
         data_frame = df,
         x = 'timeCode_x',
         y = option_selection,
-        range_y=[0,100]        
+        range_y=[0,100]
     )
     return container, fig
 
@@ -76,15 +79,16 @@ def update_graph(option_selection):
      Output(component_id='full_line_all_graph', component_property='figure'),
      [Input(component_id='feature_selection', component_property='value')])
 def update_all_graph(toggled):
+    '''update the graph containing all features'''
     print('graph triggered')
-    
+
     # create graph
     fig = px.line(
         data_frame = df,
         x = 'timeCode_x',
         y = ['STRESS_SCORE', 'overall_score', 'readiness_score_value'],
         labels=['stress', 'sleep', 'readiness'],
-        range_y=[0,150]        
+        range_y=[0,150]
     )
     print('graph created')
     return fig
@@ -95,15 +99,15 @@ def update_all_graph(toggled):
      Output(component_id='avg_readiness_day', component_property='figure'),
      [Input(component_id='feature_selection', component_property='value')])
 def update_weekday_readiness_graph(toggled):
-    # TODO: ordering of the weekdays
+    '''mid-interactive bar plot of weekday readiness'''
 
     fig = px.histogram(df,
-                       x="weekday", 
-                       y="readiness_score_value", 
-                       histfunc='avg', 
+                       x="weekday",
+                       y="readiness_score_value",
+                       histfunc='avg',
                        range_y=[0,100],
                        category_orders={"weekday":["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]}
-                       
+
                        )
     print('graph created')
     return fig
