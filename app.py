@@ -47,7 +47,7 @@ app.layout = html.Div([
     dcc.Graph(id='full_line_all_graph', figure={}),
 
 
-    html.H3("Research Question 1: What is the avg Readiness Score per Weekday?",
+    html.H3("Research Question 3: What is the avg Readiness Score per Weekday?",
              style={'text-align': 'center'}),
     dcc.Graph(id='avg_readiness_day', figure={}),
 
