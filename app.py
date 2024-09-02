@@ -22,6 +22,7 @@ df = pd.read_csv('./data/sleep_stree_readiness.csv')
 
 app.layout = html.Div([
     html.H1("This is a sample project using human data", style={'text-align': 'center'}),
+    html.P('This is a sample project on human data showcasing the features readiness, stress and overall scores defined by FitBit. Enjoy.'),
     html.H3("Linegraph of single feature over entire timespan", style={'text-align': 'center'}),
 
     html.P('The following interactive linegraph visualizes the selected features over the entire timespan of the dataset'),
