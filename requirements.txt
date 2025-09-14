@@ -3,3 +3,6 @@ plotly==5.16.1
 plotly.express
 gunicorn
 pandas
+numpy
+matplotlib
+seaborn
